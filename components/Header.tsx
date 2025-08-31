@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
             <span className="text-xs block">Returns</span>
             <span className="font-bold text-sm block">& Orders</span>
           </Link>
-          <Link to="/cart" className="relative flex items-end">
+          <Link to="/wishlist" className="relative flex items-end">
             <HeartIcon className="h-8 w-8" />
             {totalWishlistItems > 0 && (
                 <span className="absolute -top-1 -right-2 bg-amazon-yellow text-amazon-blue text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
@@ -73,6 +73,7 @@ export const Header: React.FC = () => {
             All
         </button>
         <Link to="/deals" className="hover:underline">Today's Deals</Link>
+        <Link to="/products" className="hover:underline">Products</Link>
         <Link to="/customer-service" className="hover:underline">Customer Service</Link>
         <Link to="/registry" className="hover:underline">Registry</Link>
         <Link to="/gift-cards" className="hover:underline">Gift Cards</Link>
