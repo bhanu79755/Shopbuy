@@ -1,0 +1,5 @@
+{
+  "name": "Amaze-Clone: E-commerce Experience",
+  "description": "A fully functional e-commerce website clone inspired by Amazon, featuring product browsing, a shopping cart, and AI-powered product recommendations using the Gemini API.",
+  "requestFramePermissions": []
+}
